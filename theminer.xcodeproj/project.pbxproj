@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B6A15911CA6E9AB00F5A779 /* PlayerImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6A15901CA6E9AB00F5A779 /* PlayerImg.swift */; };
+		2B6A15931CA6F10200F5A779 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6A15921CA6F10200F5A779 /* DragImg.swift */; };
+		2B6A15991CA70CAE00F5A779 /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B6A15941CA70CAE00F5A779 /* bite.wav */; };
+		2B6A159A1CA70CAE00F5A779 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B6A15951CA70CAE00F5A779 /* cave-music.mp3 */; };
+		2B6A159B1CA70CAE00F5A779 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B6A15961CA70CAE00F5A779 /* death.wav */; };
+		2B6A159C1CA70CAE00F5A779 /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B6A15971CA70CAE00F5A779 /* heart.wav */; };
+		2B6A159D1CA70CAE00F5A779 /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B6A15981CA70CAE00F5A779 /* skull.wav */; };
 		2BCF0E0A1CA0C1070090AEAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCF0E091CA0C1070090AEAA /* AppDelegate.swift */; };
 		2BCF0E0C1CA0C1070090AEAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCF0E0B1CA0C1070090AEAA /* ViewController.swift */; };
 		2BCF0E0F1CA0C1070090AEAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCF0E0D1CA0C1070090AEAA /* Main.storyboard */; };
@@ -15,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B6A15901CA6E9AB00F5A779 /* PlayerImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerImg.swift; sourceTree = "<group>"; };
+		2B6A15921CA6F10200F5A779 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
+		2B6A15941CA70CAE00F5A779 /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		2B6A15951CA70CAE00F5A779 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		2B6A15961CA70CAE00F5A779 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		2B6A15971CA70CAE00F5A779 /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		2B6A15981CA70CAE00F5A779 /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
 		2BCF0E061CA0C1070090AEAA /* theminer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theminer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BCF0E091CA0C1070090AEAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BCF0E0B1CA0C1070090AEAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +68,19 @@
 		2BCF0E081CA0C1070090AEAA /* theminer */ = {
 			isa = PBXGroup;
 			children = (
+				2B6A15941CA70CAE00F5A779 /* bite.wav */,
+				2B6A15951CA70CAE00F5A779 /* cave-music.mp3 */,
+				2B6A15961CA70CAE00F5A779 /* death.wav */,
+				2B6A15971CA70CAE00F5A779 /* heart.wav */,
+				2B6A15981CA70CAE00F5A779 /* skull.wav */,
 				2BCF0E091CA0C1070090AEAA /* AppDelegate.swift */,
 				2BCF0E0B1CA0C1070090AEAA /* ViewController.swift */,
 				2BCF0E0D1CA0C1070090AEAA /* Main.storyboard */,
 				2BCF0E101CA0C1070090AEAA /* Assets.xcassets */,
 				2BCF0E121CA0C1070090AEAA /* LaunchScreen.storyboard */,
 				2BCF0E151CA0C1070090AEAA /* Info.plist */,
+				2B6A15921CA6F10200F5A779 /* DragImg.swift */,
+				2B6A15901CA6E9AB00F5A779 /* PlayerImg.swift */,
 			);
 			path = theminer;
 			sourceTree = "<group>";
@@ -122,6 +143,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B6A159D1CA70CAE00F5A779 /* skull.wav in Resources */,
+				2B6A15991CA70CAE00F5A779 /* bite.wav in Resources */,
+				2B6A159B1CA70CAE00F5A779 /* death.wav in Resources */,
+				2B6A159C1CA70CAE00F5A779 /* heart.wav in Resources */,
+				2B6A159A1CA70CAE00F5A779 /* cave-music.mp3 in Resources */,
 				2BCF0E141CA0C1070090AEAA /* LaunchScreen.storyboard in Resources */,
 				2BCF0E111CA0C1070090AEAA /* Assets.xcassets in Resources */,
 				2BCF0E0F1CA0C1070090AEAA /* Main.storyboard in Resources */,
@@ -136,7 +162,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BCF0E0C1CA0C1070090AEAA /* ViewController.swift in Sources */,
+				2B6A15911CA6E9AB00F5A779 /* PlayerImg.swift in Sources */,
 				2BCF0E0A1CA0C1070090AEAA /* AppDelegate.swift in Sources */,
+				2B6A15931CA6F10200F5A779 /* DragImg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +312,7 @@
 				2BCF0E1A1CA0C1070090AEAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
